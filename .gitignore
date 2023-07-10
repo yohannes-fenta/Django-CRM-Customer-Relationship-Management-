@@ -1,0 +1,44 @@
+# Django-related files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Database files
+db.sqlite3
+
+# Static files
+/staticfiles/
+/static/
+
+# Media files
+/media/
+
+# Environment variables file (if using .env or similar)
+.env
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Testing files
+.coverage
+htmlcov/
+
+# Dependency directories
+venv/
+env/
+.venv/
+
+# Ignore migrations if you're not using database versioning
+*/migrations/
+
+# Ignore sensitive or local configuration files
+settings_local.py
